@@ -79,6 +79,9 @@ button {
 .carousel {
   margin-top: 70px;
   position: relative; }
+  .carousel .item img {
+    min-width: 1140px;
+    height: auto; }
 
 .carousel-indicators {
   position: absolute;
@@ -198,5 +201,37 @@ button {
     position: absolute;
     left: 0;
     top: 30px; }
+
+.voltar-topo {
+  text-transform: uppercase;
+  color: #ECF0F1;
+  font-size: 1.6rem;
+  background: #3498DB;
+  padding: 10px 0;
+  text-align: right; }
+  .voltar-topo .glyphicon-arrow-up {
+    padding-right: 60px; }
+  .voltar-topo .texto-topo {
+    padding-right: 10px; }
+
+.espaco-vazio {
+  height: 250px; }
+
+.footer {
+  background: #2C3E50;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  height: 100px; }
+  .footer a {
+    text-decoration: underline; }
+  .footer img {
+    position: absolute;
+    top: 10px; }
+  .footer p {
+    position: absolute;
+    top: 25px; }
 
 /*# sourceMappingURL=main.css.map */
